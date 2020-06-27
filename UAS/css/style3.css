@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-color:  rgb(56, 55, 55);
+}
+nav{
+
+    width: 100%;
+    overflow: auto;
+    font-size: 25px;
+}
+nav ul{
+    padding: 0;
+    margin: 0 0 0 600px;
+    list-style: none;
+}
+nav li{
+    float: left;
+}
+.logo img{
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left: 7%;
+}
+nav a{
+    width: 100px;
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.medsos a{
+    margin-left: 20px;
+    display: inline-block;
+    width: 0;
+}
+nav ul li a:hover{
+    color: rgb(252, 139, 34);
+    transition: 0.5s;
+}
+.cool-link::after{
+    content: '';
+    margin-left: 35px;
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(252, 139, 34);
+    transition: width .3s;
+}
+.cool-link:hover::after{
+   width: 30%;
+   transition: width .3s;
+}
+.medsos a:hover{
+    color:  rgb(252, 139, 34);
+    transition: 0.5s;
+}
+.garis{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 30px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.blog{
+    width: 700px;
+    margin: 100px 300px;
+}
+.blog h1{
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.blog p{
+    color: rgb(170, 169, 169);
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.blog strong{
+    color: rgb(252, 139, 34);
+}
+.main-article{
+    width: 100%;
+    height: 1380px;
+    background-color: rgb(73, 73, 73);
+    padding-top: 80px;
+}
+.main-article img{
+    width: 750px;
+    height: 500px;
+    margin-left: 300px;
+}
+.main-article p{
+    text-align: left;
+    margin:0 300px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(170, 169, 169);
+}
+.ide{
+    background-color: rgb(56, 55, 55);
+    margin-left: 300px;
+    width: 750px;
+    height: 170px;
+}
+.petik{
+    height: 40px;
+    font-size: 70px;
+    padding-top: 15px;
+    margin: 0 0 15px 30px;
+    color: rgb(170, 169, 169);
+}
+.ide h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: rgb(170, 169, 169);
+}
+.ide small{
+    font-size: 20px;
+    margin-left: 30px;
+    font-style: italic;
+    color: rgb(170, 169, 169);
+}
+.socialmedia{
+    border-top: 1px solid rgb(90, 89, 89);
+    border-bottom: 1px solid rgb(90, 89, 89);
+    width: 750px;
+    height: 120px;
+    margin: 0 300px;
+}
+.left{
+    float: left;
+}
+.left h2{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.left li{
+    list-style: none;
+    display: inline;
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 3px 10px;
+    color: rgb(170, 169, 169);
+    background-color: rgb(56, 55, 55);
+}
+.right{
+    float: right;
+}
+.right h2{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+.right a{
+    display: inline;
+    font-size: 20px;
+    padding: 0 5px;
+    color: rgb(170, 169, 169);
+}
+.navi{
+    border-bottom: 1px solid rgb(90, 89, 89);
+    width: 750px;
+    height: 40px;
+    margin: 20px 300px;
+}
+.navi a{
+    color: rgb(252, 139, 34);
+}
+.bar{
+    margin: 0 288px;
+}
+.bar{
+    border: 1px solid rgb(252, 139, 34);
+    padding: 5px 10px;
+}
+
+.straight{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    padding-top: 70px;
+}
+.straight h4{
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(252, 139, 34);
+    letter-spacing: 1px;
+}
+.straight h2{
+    font-size: 40px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    text-transform: capitalize;
+}
+.mail{
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(252, 139, 34);
+    padding: 25px 300px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: rgb(170, 169, 169);
+    background-color: rgb(66, 66, 66);
+}
+.straight p{
+    border: 2px solid rgb(252, 139, 34);
+    width: 110px;
+    padding: 15px 30px;
+    margin: 80px 590px;
+    text-transform: uppercase;
+    color: rgb(252, 139, 34);
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.kontak li{
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+.straight li{
+        margin: 0 0 0 5px;
+        list-style: none;
+}
+.kontak{
+    margin: 0 400px;
+}
+.kontak li a{
+        width: 125px;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 0;
+}
+.garis1{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 25px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.kontak a:hover{
+    color: rgb(252, 139, 34);
+}
+.footer{
+    border-top: 3px solid rgb(252, 139, 34);
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(170, 169, 169);
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    padding: 20px 25px;
+}
+.footer i{
+    font-size: 23px;
+}
